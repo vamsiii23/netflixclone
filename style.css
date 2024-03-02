@@ -1,0 +1,428 @@
+@font-face {
+    font-family: Netflix;
+    src: url(assets/NetflixSans-Regular.otf);
+}
+@font-face {
+    font-family: Netflixlight;
+    src: url(assets/NetflixSans-Light.otf);
+}
+@font-face {
+    font-family: Netflixbold;
+    src: url(assets/NetflixSans-Bold.otf);
+}
+
+*{
+    margin: 0;
+    font-family: Netflix;
+    
+    
+}
+.page1{
+    height: 96vh;
+    width: 100%;
+    background-image: url(assets/image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: block;
+
+}
+
+.head{
+    height: 92px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.innerhead{
+    height: 40px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    margin-left: 139px;
+    margin-bottom: 6px;
+    height: 40px;
+    width: 180px;
+    background-image: url(assets/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gap{
+    height: 40px;
+    width: 775.78px;
+}
+.lang{
+    width: 122.4px;
+    height: 32px;
+    margin-bottom: 10px;
+    margin-right: 45px;
+
+    border: 0.2px solid #dddddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.85rem;
+}
+.arrow{
+    background-image: url(assets/down-icon.png);
+    height: 8px;
+    width: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.signin{
+    height: 32px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    width: 75.99px;
+    background-color: #E50914;
+    color: white;
+    font-weight: 500;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.mainpagetext{
+    margin-top: 180px;
+
+}
+
+.maintext{
+    height: 64.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+
+
+
+
+}
+
+.para{
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 16px;
+    font-size: 1rem;
+    font-weight: lighter;
+
+}
+.para p{
+    font-size: 1.5rem;
+
+}
+.para h3{
+    height: 30px;
+
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 16px;
+
+}
+.gets{
+    width: 203.65px;
+    margin-left: 13px;
+    height: 56px;
+    width: 00.65;
+    background-color: #E50914;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.emailinp{
+    width: 374.35px;
+
+}
+
+.getst{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+
+    
+}
+.enteremail{
+    height: 54px;
+    width: 374.35px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    background-color: transparent;
+}
+.ggap{
+    width: 100%;
+    height: 8px;
+    background-color: #232323;
+}
+
+.page2{
+    width: 1519.2px;
+    height: 59vh;
+    background-color: black;
+    padding: 72px 0px 72px 0px;
+    display: flex;
+
+}
+
+.pone{
+    width: 50%;
+    height: 100%;
+    margin-left: 174.6px;
+    display: block;
+}
+.pone p{
+    font-size: 24px;
+
+}
+.ptwo{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    margin-right: 174.6px;
+    background-size: cover;
+}
+
+.onetwo{
+    width: 100%;
+    height: 50%;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+}
+.onetwo p{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.oneone p{
+    font-size: 48px;
+}
+.oneone{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+/* reverse */
+
+.poner{
+    width: 50%;
+    height: 100%;
+    margin-right: 174.6px;
+    display: block;
+}
+.poner p{
+    font-size: 24px;
+
+}
+.ptwor{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    margin-left: 174.6px;
+    background-size: cover;
+}
+
+.onetwor{
+    width: 100%;
+    height: 50%;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+}
+.onetwor p{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.oneoner p{
+    font-size: 48px;
+}
+.oneoner{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.lastbo{
+    height: 110vh;
+    width: 100%;
+    background-color: black;
+    display: block;
+    padding: 72px 0px 72px 0px;
+}
+.freq{
+    width: 100%;
+    height: 62px;
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ques{
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.que{
+    height: 84px;
+    width: 1170px;
+    background-color: #232323;
+    
+
+}
+
+.ggap2{
+    width: 100%;
+    height: 10px;
+    background-color: transparent;
+}
+
+.que{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+
+}
+
+
+.que p{
+    color: white;
+    font-size: 24px;
+    margin-left: 24px;
+    
+
+}
+
+.que:hover{
+    background-color: #414141;
+    transition: all 0.2s;
+
+
+}
+.again{
+    margin-top: 70px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+.footer{
+    width: 100%;
+    height: 55vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner{
+    height: 266px;
+    width: 1266px;
+    display: block;
+}
+
+.qq{
+    width: 100%;
+    height: 20px;
+    color: #ada5a5;
+    margin-left: 40px;
+}
+
+.footlinks{
+    width: 100%;
+    height: 246px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link1{
+    width: 15%;
+    height: 100%;
+    border: 2px solid black;
+    display: block;
+}
+.link2{
+    width: 15%;
+    height: 100%;
+    border: 2px solid black;
+}
+.link3{
+    width: 15%;
+    height: 100%;
+    border: 2px solid black;
+}
+.link4{
+    width: 15%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.linktext ul{
+    display: block;
+    font-size: 0.75rem;
+
+    list-style-type: none;
+
+}
+.linktext ul li{
+    color: #ada5a5;
+    margin-top: 15px;
+    font-size: 0.85rem;
+    position: relative;
+    left: 0%;
+    text-decoration: underline;
+}
+
+.lastlang{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.signin a{
+    text-decoration: none;
+    color: white;
+}
